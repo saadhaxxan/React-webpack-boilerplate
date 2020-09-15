@@ -1,6 +1,6 @@
 <div align="center">
 	<h1>React-webpack-boilerplate<br>
-	<img src="https://img.shields.io/npm/dm/webpack.svg">
+	<img src="https://webpack.js.org/assets/icon-square-big.svg">
 	<img src="https://img.shields.io/npm/l/domainify_cli?color=%2380C73D">
 	</h1>
 </div>
