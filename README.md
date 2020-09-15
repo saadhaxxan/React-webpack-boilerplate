@@ -1,7 +1,7 @@
 <div align="center">
 	<h1>React-webpack-boilerplate<br>
 	<img src="https://raw.githubusercontent.com/ddmarin94/React-Webpack-Github/master/img/babel.png">
-	<img src="https://raw.githubusercontent.com/jalbertsr/logo-badge-images/master/img/react_logo.png">
+	<img src="https://raw.githubusercontent.com/ddmarin94/React-Webpack-Github/master/img/webpack.png">
 	</h1>
 </div>
 
