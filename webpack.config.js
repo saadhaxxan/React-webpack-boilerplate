@@ -8,18 +8,19 @@ module.exports = {
         path : path.join(__dirname,'/dist'),
         filename : 'bundle.js'
     },
-    resolve: {
-        extensions: [ '.js', '.jsx']
-    },
     module: {
         rules:[
             {
-                test: /\.js?/,
+                test: /\.js?$/,
                 exclude: path.join(__dirname, '/node_modules'),
                 use:{
                     loader: 'babel-loader'
                 }
-            }
+            },
+            {
+                test: /\.css?$/,
+                use: ['style-loader', 'css-loader'],
+            },
         ]
     },
     plugins: [
